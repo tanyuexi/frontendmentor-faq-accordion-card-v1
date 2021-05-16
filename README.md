@@ -11,6 +11,10 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+    - Linear gradient background color
+    - Add shadow to box
+    - Toggle showing/hiding info
+    - Matching position and size of two elements that are not in the same parent
   - [Continued development](#continued-development)
 
 
