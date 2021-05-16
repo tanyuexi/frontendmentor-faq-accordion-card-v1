@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: <https://github.com/tanyuexi/frontendmentor-faq-accordion-card/>
-- Live Site URL: <https://tanyuexi.github.io/frontendmentor-faq-accordion-card/>
+- Solution URL: <https://github.com/tanyuexi/frontendmentor-faq-accordion-card-v1/>
+- Live Site URL: <https://tanyuexi.github.io/frontendmentor-faq-accordion-card-v1/>
 
 ## My process
 
