@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem 2rem;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.flip-X {
+  transform: rotateX(180deg);
+}
+
+.no-display {
+  display: none;
+}
+
+html {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.flex-container-space-around, .flex-container-no-space, .flex-container-space-between {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-container-space-between {
+  justify-content: space-between;
+}
+
+.flex-container-space-around {
+  justify-content: space-around;
+}
+
+body {
+  background: linear-gradient(#af67e9, #6565e7) no-repeat;
+  position: relative;
+}
+
+.page-wrapper {
+  max-width: 350px;
+  margin: auto;
+}
+
+.cover-img-mobile {
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  text-align: center;
+}
+.cover-img-mobile .center-box {
+  display: inline-block;
+  height: 214px;
+  width: 254px;
+  overflow: hidden;
+  position: relative;
+}
+.cover-img-mobile .center-box .bg-pattern {
+  height: 104px;
+  width: 240px;
+  background-image: url("../images/bg-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 110px;
+  left: 7px;
+}
+.cover-img-mobile .center-box .woman-online {
+  height: 196px;
+  width: 266px;
+  background-image: url("../images/illustration-woman-online-mobile.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: -21px;
+}
+
+.card.flex-container-no-space {
+  box-shadow: 0 40px 40px -10px rgba(0, 0, 0, 0.3);
+  margin-top: 127px;
+  border-radius: 2rem;
+  background: white;
+}
+.card.flex-container-no-space .spaceholder {
+  flex: 100%;
+  height: 80px;
+}
+.card.flex-container-no-space .content {
+  flex: 100%;
+  padding: 4rem 2rem;
+}
+.card.flex-container-no-space .content h1.title {
+  color: #1d1e35;
+  text-transform: uppercase;
+  text-align: center;
+}
+.card.flex-container-no-space .content .question-and-answer {
+  margin-top: 2rem;
+}
+.card.flex-container-no-space .content .question-and-answer .flex-container-space-between {
+  flex-wrap: nowrap;
+  margin: 1rem auto;
+  align-items: flex-start;
+}
+.card.flex-container-no-space .content .question-and-answer .question {
+  color: #4a4b5e;
+}
+.card.flex-container-no-space .content .question-and-answer .answer {
+  color: #787887;
+  margin-top: 0.5rem;
+}
+.card.flex-container-no-space .content .question-and-answer hr {
+  border: none;
+  border-top: 1px #e7e7e9 solid;
+}
+
+.question-expanded {
+  color: #1d1e35;
+  font-weight: 700;
+}
+
+.answer-collapsed {
+  display: none;
+}
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #222d59;
+}
+
+@media (min-width: 800px) {
+  .page-wrapper {
+    max-width: 900px;
+  }
+
+  .cover-img-mobile {
+    display: none;
+  }
+
+  .cover-img-desktop {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 0;
+  }
+  .cover-img-desktop .mask {
+    overflow: hidden;
+  }
+  .cover-img-desktop .mask .bg-pattern {
+    height: 945px;
+    width: 966px;
+    background-image: url("../images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -300px;
+    right: 60px;
+  }
+  .cover-img-desktop .mask .woman-online {
+    height: 359px;
+    width: 472px;
+    background-image: url("../images/illustration-woman-online-desktop.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+  }
+  .cover-img-desktop .box {
+    height: 184px;
+    width: 191px;
+    background-image: url("../images/illustration-box-desktop.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 315px;
+    right: 350px;
+  }
+
+  .card.flex-container-no-space {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 8rem;
+  }
+  .card.flex-container-no-space .spaceholder {
+    flex: 50%;
+    height: auto;
+  }
+  .card.flex-container-no-space .content {
+    flex: 50%;
+    padding: 6rem 2rem 8rem;
+  }
+  .card.flex-container-no-space .content h1.title {
+    text-align: left;
+  }
+  .card.flex-container-no-space .content .question-and-answer {
+    max-width: 302px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

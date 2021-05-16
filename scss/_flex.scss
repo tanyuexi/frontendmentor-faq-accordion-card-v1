@@ -1,0 +1,18 @@
+%flex-shared {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-container-space-between {
+  @extend %flex-shared;
+  justify-content: space-between;
+}
+
+.flex-container-no-space {
+  @extend %flex-shared;
+}
+
+.flex-container-space-around {
+  @extend %flex-shared;
+  justify-content: space-around;
+}

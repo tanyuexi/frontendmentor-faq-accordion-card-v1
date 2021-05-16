@@ -1,0 +1,38 @@
+$family-kumbh-sans: 'Kumbh Sans', sans-serif;
+
+$weight-bold: 700;
+$weight-regular: 400;
+// $weight-light: 400;
+
+$size-rem: 12px;
+$size-h1: 3rem;
+$size-h1-mobile: 2rem;
+
+// $font-families: (
+//   'spartan': $family-spartan
+// );
+//
+// $font-weights: (
+//   'bold': $weight-bold,
+//   'regular': $weight-regular,
+//   'light': $weight-light
+// );
+//
+//
+// @each $key, $value in $font-weights {
+//   .font-weight-#{$key} {
+//     font-weight: $value;
+//   }
+// }
+
+
+html {
+  font-family: $family-kumbh-sans;
+  font-size: $size-rem;
+  font-weight: $weight-regular;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: $size-h1;
+}
